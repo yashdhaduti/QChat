@@ -1,0 +1,65 @@
+<link rel = "stylesheet" href="{{url_for('static', filename='styles/about.css')}}" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base Page</title>
+
+    <style>
+        body{
+            background-color: #e9e9e9;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <image id="qlogo" src="{{url_for('static', filename='images/newQ.png')}}">
+    
+        <div>
+       
+            <button type="submit" class = "rectangle-5" id="about-button" ></button>
+            <a class="about">About</a>
+            <script type="text/javascript">
+                document.getElementById("about-button").onclick = function(){
+                    location.href = "{{url_for('about')}}";
+                }
+            </script>
+    
+            <button type="submit" class = "rectangle-6" id="home-button"></button>
+            <a class="home">Home</a>
+            <script type="text/javascript">
+                document.getElementById("home-button").onclick = function(){
+                    location.href = "{{url_for('login')}}";
+                }
+            </script>
+    
+            <button type="submit" class = "rectangle-7" id="contact-button" ></button>
+            <a class="contact-us">Contact Us</a>
+            <script type="text/javascript">
+                document.getElementById("contact-button").onclick = function(){
+                    location.href = "{{url_for('contact')}}";
+                }
+            </script>
+    
+        </div>
+
+    </div>
+
+    <!-- <img id="background" src="images/city_sketch.jpg"> -->
+    <div> 
+        <label class="qchat" >About</label>
+
+        <h3 class="about-words" >With the recent virus covid19 causing everyone to stay at home,
+             either self-quarantining or social distancing, we wanted to create a way to be able
+              to still interact and meet new people while being able to be safe at home.
+               With the ability to swipe and find matches with new people, order food from grubhub 
+               to help local restaurants, and a video chat functionality to get to know these new 
+               people, we believe Qchat has it all in getting to interact and meet new people while 
+               being safe at home.</h3>
+    </div>
+
+</body>

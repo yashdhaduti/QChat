@@ -1,0 +1,88 @@
+<link rel = "stylesheet" href="{{url_for('static', filename='styles/loginNew.css')}}" >
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <style>
+        body{
+            background-color: #e9e9e9;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <image id="qlogo" src="{{url_for('static', filename='images/newQ.png')}}">
+    
+        <div>
+       
+            <button type="submit" class = "rectangle-5" id="about-button" ></button>
+            <a class="about">About</a>
+            <script type="text/javascript">
+                document.getElementById("about-button").onclick = function(){
+                    location.href = "{{url_for('about')}}";
+                }
+            </script>
+    
+            <button type="submit" class = "rectangle-6" id="home-button"></button>
+            <a class="home">Home</a>
+            <script type="text/javascript">
+                document.getElementById("home-button").onclick = function(){
+                    location.href = "{{url_for('login')}}";
+                }
+            </script>
+    
+            <button type="submit" class = "rectangle-7" id="contact-button" ></button>
+            <a class="contact-us">Contact Us</a>
+            <script type="text/javascript">
+                document.getElementById("contact-button").onclick = function(){
+                    location.href = "{{url_for('contact')}}";
+                }
+            </script>
+    
+        </div>
+    <!-- <img id="background" src="images/city_sketch.jpg"> -->
+        <div>
+        <label class="qchat" >Qchat</label>
+            <label class = "landing-text">The best way to eat with and meet new people in you area from the
+                 comfort and safety of your own home.
+            </label>
+        </div>
+
+
+  <div>
+      <form action="/login" method="post">
+        <input type="text" name="name" id="user">
+        <button type="submit" class="rectangle-1"></button>
+        <a class="log-in">Log in</a>
+      </form>
+    </div>
+    
+  <div>
+
+        <div class="rectangle-3"></div>
+        <image class="image-2" src="{{url_for('static', filename='images/videochat.png')}}">
+        <p class="video-chat">Video Chat!</p>
+        <p class="make-friends">Make some friends or have some dates over dinner, in the comfort and safety of your own home!</p>
+        
+        <div class="rectangle-4"></div>
+        <image class="image-1" src="{{url_for('static', filename='images/grubhub.png')}}">
+        <p class="order-food">Order Food!</p>
+        <p class="enter-food">Enter the food and the restaurant you both want we'll get it for you with GrubHub!</p>
+  
+        <div class="rectangle-2"></div>
+        <image class="image-3" src="{{url_for('static', filename='images/handshake.png')}}">
+        <p class="meet">Meet New People!</p>
+        <p class="find">Find new people near you by looking through others' pictures and bios and see if theres a match!</p>
+  
+
+
+
+      
+  </div>
+</body>
+</html>

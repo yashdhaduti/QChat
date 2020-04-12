@@ -1,0 +1,437 @@
+
+
+#user{
+    position: absolute;
+    width: 553px;
+    height: 55px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    top: 63%;
+    border: 3px solid gray;
+     
+    font-family: "Pier Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 56px;
+    color: #576b82;
+    text-align: center;
+}
+
+
+.landing-text {
+    position: absolute;
+    width: 686px;
+    height: 306px;
+    left: 408px;
+    top: 370px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    /* Rectangle 2 */
+    
+    .rectangle-2 {
+    position: absolute;
+    width: 390px;
+    height: 273px;
+    left: 26px;
+    top: 700px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+
+
+    .rectangle-4 {
+    /* Rectangle 4 */
+    
+    position: absolute;
+    width: 390px;
+    height: 273px;
+    left: 560px;
+    top: 700px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    
+    
+    /* Rectangle 3 */
+    
+    .rectangle-3 {
+    position: absolute;
+    width: 390px;
+    height: 273px;
+    left: 1105px;
+    top: 700px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    /* Rectangle 5 */
+    .rectangle-5{
+    
+    position: absolute;
+    width: 157px;
+    height: 51px;
+    left: 962px;
+    top: 32px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    
+    
+    
+    /* Rectangle 7 */
+    
+    .rectangle-7{
+    position: absolute;
+    width: 157px;
+    height: 51px;
+    left: 1151px;
+    top: 32px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    
+    
+    
+    /* qlogo 1 */
+    
+    #qlogo{
+    
+        position: absolute;
+        width: 179px;
+        height: 180px;
+        left: 26px;
+        top: 14px;
+        background-color: #e9e9e9;
+        background-blend-mode: multiply;
+    
+    }
+    
+    
+    /* Rectangle 1 */
+    
+    .rectangle-1 {
+    position: absolute;
+    width: 553px;
+    height: 79px;
+    left: 483px;
+    top: 552px;
+    
+    background: linear-gradient(143.25deg, #F21072 41.97%, #4F0F7D 66.98%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+    
+    
+    
+    /* Log in */
+    
+    .log-in{
+    position: absolute;
+    width: 137px;
+    height: 45px;
+    left: 698px;
+    top: 569px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+    }
+    
+    
+    .test{
+        position: absolute;
+        width: 115px;
+        height: 49px;
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    
+    
+    /* Contact Us */
+    
+    .contact-us{
+    position: absolute;
+    width: 207px;
+    height: 49px;
+    left: 1172px;
+    top: 43px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    }
+    
+    
+    
+    
+    /* About */
+    
+    .about{
+    position: absolute;
+
+    left: 1007px;
+    top: 42px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    }
+    
+    
+    
+    
+    /* Rectangle 6 */
+    .rectangle-6{
+    position: absolute;
+    width: 157px;
+    height: 51px;
+    left: 1340px;
+    top: 32px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    
+    
+    
+    /* Home */
+    .home{
+    position: absolute;
+    width: 91px;
+    height: 49px;
+    left: 1387px;
+    top: 44px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    }
+    
+    
+    
+    
+    
+    /* image 1 */
+    
+    .image-1{
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 689px;
+    top: 711px;
+    }
+    
+    
+    
+    /* image 2 */
+    
+    .image-2{
+
+        position: absolute;
+        width: 197px;
+        height: 127px;
+        left: 1215px;
+        top: 716px;
+
+        background: url(image.png);
+    }
+    
+    
+    /* image 3 */
+    .image-3 {
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    left: 158px;
+    top: 716px;
+    }
+    
+    
+    
+    
+    /* Order Food! */
+    
+    .order-food{
+    position: absolute;
+    width: 274px;
+    height: 84px;
+    left: 700px;
+    top: 831px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    
+    
+    
+    /* Video Chat! */
+    .video-chat{
+    position: absolute;
+    width: 274px;
+    height: 84px;
+    left: 1249px;
+    top: 831px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+
+    
+    /* Find new people near you by looking through others pictures and bios and see if theres a match! */
+    
+    .find{
+    position: absolute;
+    width: 311px;
+    height: 73px;
+    left: 66px;
+    top: 874px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #666666;
+    }
+    
+    
+    
+    
+    /* Qchat */
+    
+    .qchat{
+        /* color: (#F21072 22.23%, #4A0F7F 100%); */
+        
+        position: absolute;
+        width: 847px;
+        height: 245px;
+        left: 530px;
+        top: 70px;
+        
+        font-family: Sedan;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 180px;
+        line-height: 305px;
+
+        background: -webkit-linear-gradient(#F21072 22.23%, #4A0F7F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    /* Meet New People! */
+    
+    .meet{
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 117px;
+    top: 831px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    
+    
+    
+    /* Enter the food and the restaurant you both want and we’ll get it for you with grubhub! */
+    
+    .enter-food{
+    position: absolute;
+    width: 316px;
+    height: 61px;
+    left: 600px;
+    top: 874px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #666666;
+    
+    }
+    
+    
+    
+    /* Make some friends or have some dates over dinner, in the comfort and safety of your own home! */
+    .make-friends{
+    position: absolute;
+    width: 316px;
+    height: 61px;
+    left: 1165px;
+    top: 874px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #666666;
+    }
